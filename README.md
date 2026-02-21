@@ -1,24 +1,33 @@
 # ⚽ AI Football Analytics System
 
-AI-powered football tracking system using YOLOv8 and OpenCV.
+An AI-powered football analytics system built using YOLOv8 and OpenCV.
 
-## Features
-- Real-time football detection
-- Smooth motion trail
-- Speed estimation (km/h)
-- Heatmap visualization
+## 🚀 Features
+
+- Real-time football detection using YOLOv8
+- Smooth motion trail visualization
+- Ball speed estimation (km/h)
+- Heatmap generation
 - Processed video export
 
-## Tech Stack
+## 🛠 Tech Stack
+
 - Python
 - OpenCV
 - Ultralytics YOLOv8
 - NumPy
 
-## Installation
+## 📂 Project Structure
+
+football-analyzer/
+│
+├── yolo_tracker.py
+├── football_tracker.py
+├── requirements.txt
+├── videos/
+└── output/
+
+## ▶️ Installation
+
+```bash
 pip install -r requirements.txt
-
-## Run
-python yolo_tracker.py
-
-Note: Video files and model weights are not included in the repository.
