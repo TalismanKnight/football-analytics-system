@@ -1,6 +1,14 @@
+## Demo
+
+![Demo Screenshot](demo.png)
+
 # ⚽ AI Football Analytics System
 
 An AI-powered football analytics system built using YOLOv8 and OpenCV.
+
+This project detects and tracks a football in match footage, estimates ball speed, generates motion trails, and visualizes a positional heatmap.
+
+---
 
 ## 🚀 Features
 
@@ -10,12 +18,16 @@ An AI-powered football analytics system built using YOLOv8 and OpenCV.
 - Heatmap generation
 - Processed video export
 
+---
+
 ## 🛠 Tech Stack
 
 - Python
 - OpenCV
 - Ultralytics YOLOv8
 - NumPy
+
+---
 
 ## 📂 Project Structure
 
@@ -26,6 +38,8 @@ football-analyzer/
 ├── requirements.txt
 ├── videos/
 └── output/
+
+---
 
 ## ▶️ Installation
 
